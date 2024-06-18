@@ -26,4 +26,4 @@ O documento determina a composição `g(f(x))` para cada caso:
 Para compilar este documento LaTeX, você precisará de um compilador LaTeX como o pdflatex ou lualatex. Salve o código como um arquivo `.tex` (por exemplo, composicao_funcoes.tex) e execute o comando apropriado para gerar um arquivo PDF contendo o documento.
 
 ## 💕Image
-![image](https://github.com/DeiseFreire/tex213117062024/blob/main/image.png)
+![image]
