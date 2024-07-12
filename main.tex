@@ -1,10 +1,28 @@
-\text{Dadas as funçôes $f\left( x \right) = \frac{1}{x}$ e $g\left( x \right) = 3x + 1$, determine: $g \circ f\left( x \right)$} \\
+\documentclass{article} % Classe do documento (ajuste conforme necessário)
 
-\text{$f\left( x \right) = \frac{1}{x}$ e $g\left( x \right) = 3x + 1$}  \\
-(a) \mspace{9mu} g \circ f\left( x \right) = g\left( f\left( x \right) \right) = g\left(\frac{1}{x} \right) = 3 \cdot \frac{1}{x} + 1 =\frac{3 + x}{x} = \frac{x + 3}{x} \\
+% Pacotes
+\usepackage{amsmath} % Pacotes para matemáticos avançados
+\usepackage{amssymb} % Pacotes para símbolos matemáticos
+\usepackage{calc} % Permite cálculos aritméticos dentro do documento
+\usepackage{cancel} % Desenha linhas de cancelamento para destacar termos simplificados
+\usepackage[utf8]{inputenc} % Ativa a codificação UTF-8 para caracteres portugueses
+\usepackage[portuguese]{babel} % Ativa o suporte ao idioma português
+\usepackage{lmodern} % Usa as fontes Latin Modern (recomendadas para português)
 
-(b) \mspace{9mu} f \circ g\left( x \right) = f\left( g\left( x \right) \right) = f\left( 3x + 1 \right) = \frac{1}{3x +1} \\
+\begin{document} % Corpo do documento (equações e explicações)
+\title{Funções Matemáticas} % Título do documento
+\author{Deise Freire} % Nome
+\date{\today} % Data do documento
+\maketitle % Exibe o título, autor e data
+Dadas as funções $f\left( x \right) = \frac{1}{x}$ e $g\left( x \right) = 3x + 1$, determine as seguintes funções:
+\begin{enumerate}
+    \item[(a)] $g \circ f\left( x \right) = g\left( f\left( x \right)\right) = g\left(\frac{1}{x} \right) = 3 \cdot \frac{1}{x} + 1 = \frac{3}{x} + 1 = \frac{3 + x}{x} = \frac{x + 3}{x}$  
 
-(c) \mspace{9mu} g \circ g\left( x \right) = g\left( g\left( x \right) \right) = g\left( 3x + 1 \right) = 3 \cdot \left( 3x + 1 \right) + 1 = 9X + 3 + 1 = 9x + 4 \\
+    \item[(b)] $f \circ g\left( x \right) = f\left( g\left( x \right)\right) = f\left( 3x + 1 \right) = \frac{1}{3x + 1}$ 
 
-(d) \mspace{9mu} f \circ f\left( x \right) = f\left( f\left( x \right) \right) = f\left(\frac{1}{x} \right) = \frac{1}{\frac{1}{x}} = 1 \cdot \frac{x}{1} = x \\
+    \item[(c)] $g \circ g\left( x \right) = g\left(g\left( x \right) \right) = g\left( 3x + 1 \right) = 3 \cdot \left( 3x + 1 \right) + 1 = 9x + 3 + 1 = 9x + 4$
+
+    \item[(d)] $f \circ f\left( x \right) = f\left(f\left( x \right) \right) = f\left( \frac{1}{x} \right) = \frac{1}{\frac{1}{x}} = 1 \cdot \frac{x}{1} = x$ 
+\end{enumerate}
+
+\end{document}
