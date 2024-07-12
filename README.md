@@ -18,6 +18,20 @@ O documento determina a composição `g(f(x))` para cada caso:
 (c) g(g(x)) = 9x + 4
 (d) f(f(x)) = x
 
+## 💕 Sintaxe LaTex
+
+```
+\text{Dadas as funçôes $f\left( x \right) = \frac{1}{x}$ e $g\left( x \right) = 3x + 1$, determine: $g \circ f\left( x \right)$} \\
+
+\text{$f\left( x \right) = \frac{1}{x}$ e $g\left( x \right) = 3x + 1$}  \\
+(a) \mspace{9mu} g \circ f\left( x \right) = g\left( f\left( x \right) \right) = g\left(\frac{1}{x} \right) = 3 \cdot \frac{1}{x} + 1 =\frac{3 + x}{x} = \frac{x + 3}{x} \\
+
+(b) \mspace{9mu} f \circ g\left( x \right) = f\left( g\left( x \right) \right) = f\left( 3x + 1 \right) = \frac{1}{3x +1} \\
+
+(c) \mspace{9mu} g \circ g\left( x \right) = g\left( g\left( x \right) \right) = g\left( 3x + 1 \right) = 3 \cdot \left( 3x + 1 \right) + 1 = 9X + 3 + 1 = 9x + 4 \\
+
+(d) \mspace{9mu} f \circ f\left( x \right) = f\left( f\left( x \right) \right) = f\left(\frac{1}{x} \right) = \frac{1}{\frac{1}{x}} = 1 \cdot \frac{x}{1} = x \\
+```
 ## 💕 **Observações**
 
 * O documento utiliza comandos LaTeX para formatar a matemática.
