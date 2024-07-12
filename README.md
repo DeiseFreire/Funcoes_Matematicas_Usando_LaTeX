@@ -1,3 +1,5 @@
+![LaTex](https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=LaTeX&logoColor=white) ![overleaf](https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=Overleaf&logoColor=white) <a href="https://www.youtube.com/watch?v=zjsUvLKL8rU&list=PLZpH1iUcDo5jySyW1zOz5PV4Yg84VV-fg&index=11" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
+
 ## 💕 Composição de Funções em LaTeX
 
 Este documento LaTeX calcula a composição de funções `g \circ f(x)` para as funções `f(x) = \frac{1}{x}` e `g(x) = 3x + 1`.
