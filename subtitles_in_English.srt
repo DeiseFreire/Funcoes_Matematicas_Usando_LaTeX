@@ -1,0 +1,112 @@
+1
+00:00:09,766 --> 00:00:24,899
+\documentclass{article} % Document Class (adjust as needed)
+
+2
+00:00:24,899 --> 00:00:28,932
+% Packages
+
+3
+00:00:28,932 --> 00:00:53,432
+\usepackage{amsmath} % Packages for advanced mathematicians
+
+4
+00:00:53,432 --> 00:01:53,266
+\usepackage{calc} % Allows arithmetic calculations within the document
+
+5
+00:01:53,266 --> 00:02:26,099
+\usepackage{cancel} % Draws cancellation lines to highlight simplified terms
+
+6
+00:02:26,099 --> 00:03:08,732
+\usepackage[utf8]{inputenc} % Enables UTF-8 encoding for Portuguese characters
+
+7
+00:03:08,732 --> 00:03:44,333
+\usepackage[portuguese]{babel} % Enables Portuguese language support
+
+8
+00:03:44,333 --> 00:04:23,033
+\usepackage{lmodern} % Use Latin Modern fonts (recommended for Portuguese)
+
+9
+00:04:23,033 --> 00:04:36,033
+\begin{document} ... \end{document}
+
+10
+00:04:36,033 --> 00:04:56,632
+% Document body (equations and explanations)
+
+11
+00:04:56,632 --> 00:05:14,666
+\title{Mathematical Functions} % Document title
+
+12
+00:05:14,666 --> 00:05:32,099
+\author{Deise Freire} % Name
+
+13
+00:05:32,099 --> 00:05:57,732
+\date{\today} % Date of document
+
+14
+00:05:57,732 --> 00:06:19,765
+\maketitle % Displays title, author and date
+
+15
+00:06:19,765 --> 00:07:25,699
+Given the functions $f\left( x \right) = \frac{1}{x}$ and $g\left( x \right) = 3x + 1$,
+
+16
+00:07:25,699 --> 00:07:33,233
+determine the following functions:
+
+17
+00:07:33,233 --> 00:07:48,632
+\begin{enumerate} ... \end{enumerate}
+
+18
+00:07:48,632 --> 00:08:41,099
+\item[(a)] $g \circ f\left( x \right) = g\left( f\left( x \right)\right)
+
+19
+00:08:41,099 --> 00:08:56,266
+= g\left(\frac{1}{x} \right)
+
+20
+00:08:56,266 --> 00:10:34,166
+= 3 \cdot \frac{1}{x} + 1 = \frac{3}{x} + 1 = \frac{3 + x}{x} = \frac{x + 3}{x}$
+
+21
+00:10:34,166 --> 00:11:32,632
+\item[(b)] $f \circ g\left( x \right) = f\left( g\left( x \right)\right)
+
+22
+00:11:32,632 --> 00:12:13,765
+= f\left( 3x + 1 \right) = \frac{1}{3x + 1}$
+
+23
+00:12:32,599 --> 00:13:50,666
+\item[(c)] $g \circ g\left( x \right) = g\left(g\left( x \right) \right)
+
+24
+00:13:50,666 --> 00:14:41,799
+= g\left( 3x + 1 \right) = 3 \cdot \left( 3x + 1 \right) + 1
+
+25
+00:14:41,799 --> 00:15:09,333
+= 9x + 3 + 1 = 9x + 4$
+
+26
+00:15:32,266 --> 00:16:21,899
+\item[(d)] $f \circ f\left( x \right) = f\left(f\left( x \right) \right)
+
+27
+00:16:21,899 --> 00:16:58,399
+= f\left( \frac{1}{x} \right) = \frac{1}{\frac{1}{x}}
+
+28
+00:16:58,399 --> 00:17:21,432
+= 1 \cdot \frac{x}{1} = x$
+
